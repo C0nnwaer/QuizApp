@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
     Button submitButton;
@@ -17,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 System.out.println("Hello mom");
+                Log.i("testButton", "Hi dad!");
             }
         });
     }
