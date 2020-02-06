@@ -17,8 +17,7 @@ public class MainActivity extends AppCompatActivity {
         submitButton.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                System.out.println("Hello mom");
-                Log.i("testButton", "Hi dad!");
+                Log.i("testButton", "Hey what's up!");
             }
         });
     }
